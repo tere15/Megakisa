@@ -10,10 +10,15 @@ app.config(function($routeProvider){
     
     
     $routeProvider.when('/',{
-        // Triggeröityy kun url latautuu eli tullaan '/' kohtaan
-        templateUrl:'/app/components/frontpage_view.html', //toteuttaa tietyn osan dokumenttia (siksi partial)
+        templateUrl:'/app/components/frontpage/frontpage_view.html', //toteuttaa tietyn osan dokumenttia (siksi partial)
         controller:'frontpageController'
         //factory:'groupFactory'
-
+    /* }).when('/cities',{
+        templateUrl:'cities.html',
+    }).when('/login',{ 
+        templateUrl:'login.html',
+        
+     }).when('/register',{
+        templateUrl:'register.html',*/
     });
 });

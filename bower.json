@@ -1,12 +1,14 @@
 {
-    "name": "megakisa",
-    "version": "0.0.0",
+    "name": "Megakisa",
+    
+    "version": "0.0.1",
+    
     "dependencies": {
-        "angular":          "1.5.8",
-        "angular-route":    "1.2.16",
-        "angular-resource": "1.2.16",
-        "bootstrap":        "2.1.4",
-        "jquery":           "3.1.0"
-    },
-    "analytics": false
+        "angular":          "~1.5.8",      
+        "angular-route":    "~1.5.8",
+        "angular-resource": "~1.5.8",
+        "bootstrap":        "~3.3.7",
+        "jquery":           "~3.1.0"
+    }
+    
 }
