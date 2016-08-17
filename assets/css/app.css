@@ -1,6 +1,14 @@
 body {
-    background:url(../images/background.jpg) center top no-repeat;
-    max-width:970px;
+    /*background:url(../images/background.jpg) center top no-repeat;
+    max-width:970px;*/
+    
+     background:url(../images/background.jpg) no-repeat;
+    background-size:cover;  
+
+    /* Workaround for some mobile browsers */
+    min-height:100%;    
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .row {
@@ -13,9 +21,10 @@ body {
 }
 
 .img-logo {
-   margin-bottom:-50px;
+   max-height:80px;
     max-width:900px;
     margin-left:4em;
+    margin-top:-40px;
 }
 
 .img-large {
@@ -32,14 +41,23 @@ body {
 /* start navbar */
 
 .navbar {
-    border-radius: 0;
+    /*border-radius: 0;*/
+    max-width:900px;
+    min-height:80px;
+    margin-left:3em;
 }
 
-.navbar-new {
-    background-color: #fffafa;
-    border-color:#fffafa;
+.navbar-mega {
+    /*width:100%;*/
+    background:url(../images/header_bottom.png) no-repeat;
+/*    background-size:cover;*/
+ 
+    /*max-width:100%;
+    height:auto;
+    border-color:#fffafa;*/
+    
 }
-
+/*
 .navbar-new .navbar-brand,
 .navbar-new .navbar-brand:hover,
 .navbar-new .navbar-brand:focus {
@@ -63,20 +81,37 @@ body {
 }
 
 .navbar-new .navbar-text {
+    
     color: #ff0000;
 }
-
-.navbar-new .navbar-toggle {
+*/
+.navbar-mega .navbar-toggle {
     border-color: #000000;
 }
 
-.navbar-new .navbar-toggle:hover,
-.navbar-new .navbar-toggle:focus {
+.navbar-mega .navbar-toggle:hover,
+.navbar navbar-default navbar-fixed-top .navbar-toggle:focus {
     background-color: #FFFFFF;
 }
 
-.navbar-new .navbar-toggle .icon-bar {
+.navbar-mega .navbar-toggle .icon-bar {
     background-color:#000000;
 }
 
 /* end navbar */
+
+.header_oulu {
+    margin-left:80px;
+}
+
+.footer_header1{
+    max-height:70%;
+}
+
+.footer {
+     background:url(../images/footer_background.png) no-repeat;
+}
+
+.footer .container {
+  min-height: 150px;
+}
