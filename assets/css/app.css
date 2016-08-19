@@ -1,29 +1,17 @@
 body {
-    /*background:url(../images/background.jpg) center top no-repeat;
-    max-width:970px;*/
     background:url(../images/background.jpg) no-repeat;
     background-size:cover; 
-
-    /* Workaround for some mobile browsers */
-    /*min-height:100%;    
-    padding-top: 20px;
-    padding-bottom: 20px;*/
 }
 
 .row {
     margin-left:4em;
 }
 
-
 .col-sm-4{
     padding-left:0px;
     padding-right:0px;
 }
 
-/*.col-sm-1{
-    padding-left:0px;
-    padding-right:0px;
-}*/
 .img-logo {
     max-height:80px;
     margin-top:-40px;
@@ -37,52 +25,14 @@ body {
     height:"auto"; 
 }
 
-
-/* start navbar */
-
 .navbar {
-    /*border-radius: 0;*/
     min-height:80px;
 }
 
 .navbar-mega {
-    /*width:100%;*/
     background:url(../images/header_bottom.png) no-repeat;
-/*    background-size:cover;*/
- 
-    /*max-width:100%;
-    height:auto;
-    border-color:#fffafa;*/
-    
-}
-/*
-.navbar-new .navbar-brand,
-.navbar-new .navbar-brand:hover,
-.navbar-new .navbar-brand:focus {
-    color: #ff0000;
 }
 
-.navbar-new .navbar-nav > li > a {
-    color: #ff0000;
-}
-
-.navbar-new .navbar-nav > li > a:hover,
-.navbar-new .navbar-nav > li > a:focus {
-    background-color: #fffafa;
-}
-
-.navbar-new .navbar-nav > .active > a,
-.navbar-new .navbar-nav > .active > a:hover,
-.navbar-new .navbar-nav > .active > a:focus {
-    color: #fffafa;
-    background-color: #fffafa;
-}
-
-.navbar-new .navbar-text {
-    
-    color: #ff0000;
-}
-*/
 .navbar-mega .navbar-toggle {
     border-color: #000000;
 }
@@ -96,8 +46,6 @@ body {
     background-color:#000000;
 }
 
-/* end navbar */
-
 .header_oulu {
     margin-left:80px;
 }
@@ -107,7 +55,6 @@ body {
 }
 
 .footer {
-    /*max-width:900px;**/
     min-height:100px;
     background:url(../images/footer_background.png) no-repeat;
 }
@@ -118,29 +65,47 @@ body {
 
 .footer .container .row {
     margin-top:30px;
+    margin-left:4em;
 }
 
-.bottom-shortly {
-    height:8px;
-    width:55px;
+.shortly .col-sm-1 {
+ padding-right:0px;
+    min-width:70px;   
 }
 
-.bottom-business {
-    height:8px;
-    width:75px;
+.business .col-sm-2 {
+    margin-left:15px;
+    padding-right:0px;
+    min-width:130px;   
 }
 
-.bottom-partners {
-    height:8px;
-    width:77px;
+.partners .col-sm-2{
+    margin-left:-30px;
+    padding-right:0px;
+    min-width:140px; 
+} 
+
+.competitives .col-sm-2 {
+    margin-left:-20px;
+    padding-right:0px;
+    min-width:150px;   
 }
 
-.bottom-competitives {
-    height:8px;
-    width:75px;
+.contact .col-sm-2 {
+    margin-left:-20px;
+    margin-right:30px;  
+} 
+
+.social_media .col-sm-3 {
+    min-width:200px;
 }
 
-.bottom-contact {
-    height:8px;
-    width:70px;
+.h_line{
+     margin-top:-10px;
+}
+
+.address{
+    margin-top:-5px;
+    margin-bottom:10px;
+    text-align:center;
 }
