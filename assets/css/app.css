@@ -32,14 +32,9 @@ body {
 
 
 .navbar-mega {
-    background:url(../images/header_bottom.png) no-repeat;
-    /*background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
-    
+   background:url(../images/header_bottom.png) no-repeat;
+    background-position: top center;
+    background-size:100% 60%;
 }
 
 .navbar-mega .navbar-toggle {
@@ -58,6 +53,7 @@ body {
 .header_oulu {
     margin-left:80px;
 }
+
 
 .footer_header1{
     max-height:70%;

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html ng-app='app'>
+    
     <head>
         <meta charset="utf-8">
         <title>Megakisa</title>
@@ -18,6 +19,13 @@
         <script src="/assets/bower_components/bootstrap/dist/js/bootstrap.js"></script>         
         <script src="/app/app.js"></script>    
         <script src="/app/components/frontpage/frontpage_controller.js"></script> 
+        
+        <noscript>
+            <!--<p></p>
+            <p>Megakisa-sivu ei toimi, koska selaimesi JavaScript ei ole käytössä!</p>-->
+       
+            <iframe src="/app/components/frontpage/frontpage_view.html" width="100%" height="500" frameborder="0" allowfullscreen sandbox></iframe>
+        </noscript>
     </body>
  
 </html>
